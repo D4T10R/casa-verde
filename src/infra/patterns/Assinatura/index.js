@@ -5,7 +5,7 @@ import plantas from './img/imagem-hero 1.svg'
 import CampoInput from '../../components/CampoInput/campoInput';
 import BotaoEnvio from '../../components/BotaoEnvio/botaoEnvio';
 
-const AssinaturaEstilizada = styled.div`
+const AssinaturaEstilizada = styled.section`
     display: flex;
     justify-content: space-around;
 
@@ -26,7 +26,6 @@ const AssinaturaEstilizada = styled.div`
             font-size: 22px;
         }
     }
-
 
     h1 {
         font-family: var(--font-titulos);

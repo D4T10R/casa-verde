@@ -4,6 +4,8 @@ import Cabecalho from '../../infra/patterns/Cabecalho/index.js'
 
 // imagens 
 import mancha from './img/mancha-fundo.svg'
+import MinhaPlanta from '../../infra/patterns/MinhaPlanta/index.js';
+import Ofertas from '../../infra/patterns/Ofertas/index.js';
 
 const MainEstilizado = styled.main`
     background-image: url(${mancha});
@@ -17,6 +19,8 @@ function PaginaInicial() {
         <MainEstilizado>
             <Cabecalho />
             <AssinaturaNewsletter />
+            <MinhaPlanta />
+            <Ofertas />
         </MainEstilizado>
     )
 }
